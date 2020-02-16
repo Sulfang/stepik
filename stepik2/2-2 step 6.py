@@ -1,3 +1,5 @@
+from datetime import time
+
 from selenium import webdriver
 import math
 
@@ -24,3 +26,6 @@ input_field.send_keys(y)
 check_box.click()
 radio.click()
 submit.click()
+
+time.sleep(20)
+browser.quit()

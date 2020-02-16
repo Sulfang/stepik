@@ -10,5 +10,4 @@ try:
     button.click()
 
 finally:
-    # закрываем браузер после всех манипуляций
     browser.quit()

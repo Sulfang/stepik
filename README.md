@@ -1,4 +1,2 @@
 # stepik
-hi
-ola
-it's my git
+Hello, it's my git for stepik course homeworks

@@ -1,3 +1,5 @@
+from datetime import time
+
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
@@ -17,4 +19,5 @@ select.select_by_visible_text(f"{sum}")
 
 submit_btn = browser.find_element_by_css_selector('.btn').click()
 
+time.sleep(20)
 browser.quit()

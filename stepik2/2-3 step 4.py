@@ -1,3 +1,5 @@
+from datetime import time
+
 from selenium import webdriver
 import math
 
@@ -26,3 +28,6 @@ y = calc(x_value)
 
 input_field.send_keys(y)
 submit.click()
+
+time.sleep(20)
+browser.quit()

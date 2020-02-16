@@ -7,4 +7,3 @@ button = browser.find_element(By.ID, "submit_button")
 button.click()
 
 browser.quit()
-#close() в свою очередь закрывает только текущую вкладку, когда quit закрывает браузер полностью
